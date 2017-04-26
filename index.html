@@ -28,13 +28,35 @@
             <input type="radio" name="flavor" value="cookiesandcream">
             Cookies and Cream
           </label>
-          <form id="form-btn">
-            <button type="submit" class="btn btn-danger">Submit!</button>
-          </form>
         </div>
       </div>
+      <div class="food">
+        <h4>Which type of food from these 3 is your favorite?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="foods" value="pizza" checked>
+            Pizza
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="foods" value="burritos">
+            Burritos
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="foods" value="steak">
+            Steak
+          </label>
+        </div>
+      </div>
+      <form id="form-btn">
+        <button type="submit" class="btn btn-danger">Submit!</button>
+      </form>
       <div id="thanks">
         <h1>Thank you!</h1>
+        <p><span class="flavor"></span><span class="foods"></span></p>
       </div>
     </div>
   </body>
